@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dado/dado.iml" filepath="$PROJECT_DIR$/dado/dado.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/informatica_2026-27.iml" filepath="$PROJECT_DIR$/.idea/informatica_2026-27.iml" />
     </modules>
   </component>
