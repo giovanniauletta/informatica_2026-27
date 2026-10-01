@@ -1,4 +1,4 @@
-public class ContoCorrente{
+public class ContoCorrente {
     private String nome;
     private String cognome;
     private String codice;
@@ -10,7 +10,7 @@ public class ContoCorrente{
         this.saldo = 0;
     }
     public double preleva(double quantita){
-        if (quantita >= 0 && saldo - quantita <=0){
+        if (quantita >= 0 && saldo - quantita >= 0){
             saldo = saldo - quantita;
         }
         return saldo;
@@ -22,7 +22,7 @@ public class ContoCorrente{
         return saldo;
     }
     public double getSaldo(){
-        return saldo
+        return saldo;
     }
     public String getCodice(){
         return codice;
@@ -32,5 +32,9 @@ public class ContoCorrente{
     }
     @Override
     public String toString(){
-        return "Nome: " + nome + "Cognome: " + cognome + "Codice: " + codice + "Saldo: " + saldo;}
+        return "Nome: " + nome +
+                " Cognome: " + cognome +
+                " Codice: " + codice +
+                " Saldo: " + saldo;
+    }
 }
